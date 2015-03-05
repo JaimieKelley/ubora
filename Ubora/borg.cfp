@@ -1,0 +1,63 @@
+Monitor Group
+  DST PORT: 12912
+  SRC PORT: 
+  DST ADDR: 
+  SRC ADDR: 
+  DATA RANGE: 
+  MANGLER: monitorCli
+  MANGLE PARAMETERS: so-far-seen
+  MODE: 2
+Monitor Group
+  DST PORT: 12912
+  SRC PORT: 
+  DST ADDR: 
+  SRC ADDR: 
+  DATA RANGE: 
+  MANGLER: collectDataCli
+  MANGLE PARAMETERS: localhost, 1055
+  MODE: 1
+Monitor Group
+  DST PORT: 
+  SRC PORT: 12912
+  DST ADDR: 
+  SRC ADDR: 
+  DATA RANGE: 
+  MANGLER: collectDataSrv
+  MANGLE PARAMETERS: localhost, 1055
+  MODE: 1
+Monitor Group
+  DST PORT: 12912
+  SRC PORT: 
+  DST ADDR: 
+  SRC ADDR: 
+  DATA RANGE: 
+  MANGLER: collectDataCli
+  MANGLE PARAMETERS: localhost, 1055
+  MODE: 0
+Monitor Group
+  DST PORT: 
+  SRC PORT: 12912
+  DST ADDR: 
+  SRC ADDR: 
+  DATA RANGE: 
+  MANGLER: collectDataSrv
+  MANGLE PARAMETERS: localhost, 1055
+  MODE: 0
+Monitor Group
+  DST PORT: 12912
+  SRC PORT: 
+  DST ADDR: 
+  SRC ADDR: 
+  DATA RANGE: 
+  MANGLER: monitorCli
+  MANGLE PARAMETERS: so-far-seen
+  MODE: 3
+Monitor Group
+  DST PORT: 
+  SRC PORT: 12912
+  DST ADDR: 
+  SRC ADDR: 
+  DATA RANGE: 
+  MANGLER: monitorCli
+  MANGLE PARAMETERS: so-far-seen
+  MODE: 3
